@@ -1,9 +1,13 @@
 # Keyboard Shortcut
 
-1. UNIX
-2. Nano
-3. Vim
-4. Git
-5. VS Code
-6. Firefox
-7. Chrome
+1. Gnome-terminal
+2. Unix
+3. Nano
+4. Vim
+5. Git
+6. VS Code
+7. Firefox
+8. Chrome
+9. Tmux
+10. Ubuntu 20.04-mutter
+11. i3wm

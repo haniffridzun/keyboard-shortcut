@@ -1,0 +1,1 @@
+start xampp server: $ sudo /opt/lampp/lampp/ start
