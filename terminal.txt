@@ -1,0 +1,32 @@
+start xampp server: $ sudo /opt/lampp/lampp/ start
+
+#cursor
+ctrl + a :: go to beginning of command line
+ctrl + e :: go to end of command line
+ctrl + b :: move cursor back one character
+ctrl + f :: move cursor forward one character
+alt + b :: move cursor back one word
+alt + f :: move cursor forward one word
+
+#control
+ctrl + l :: clears the screen
+ctrl + s :: pause terminal output
+ctrl + q :: resume terminal output
+
+#editing
+ctrl + shift + - :: undo last action
+ctrl + w :: delete backward to the beginning of current word
+ctrl + d :: delete character after current cursor / exit shell
+ctrl + y :: paste command
+ctrl + u :: delete to the beginning of line
+ctrl + k :: delete to the end of line
+
+#history
+ctrl + r :: search command history
+ctrl + p :: view previous command in history
+ctrl + n :: view next command in history
+
+#processes
+ctrl + z :: suspend current process to background
+ctrl + c :: kill current process
+

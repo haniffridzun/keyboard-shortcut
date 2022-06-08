@@ -1,0 +1,73 @@
+#general
+tmux :: start tmux session
+tmux detach :: detach from current session
+tmux attach :: attach to last used session
+tmux info :: show every session, window, pane etc.
+
+ctrl + b :: send the prefix key
+> / :: describe key binding
+> : :: prompt for a command
+> ? :: list key bindings
+> t :: show clock
+> ~ :: show messages
+> - :: delete most recent paste buffer
+> = :: choose a paste buffer from a list
+> # :: list all paste buffers
+> ] :: paste the most recent paste buffer
+> [ :: enter copy mode
+
+#windows
+> " :: split window vertically
+> % :: split window horizontally
+> & :: kill current window
+> ' :: prompt for window index to select
+> , :: rename current window
+> . :: move the current window
+> 1 - 9 :: select window
+> i :: display window information
+> c :: create new window
+> n :: select the next window
+> shift + arrow :: move visible part of window
+> alt + n :: select next window with an alert
+> alt + p :: select previous window with an alert
+> w :: choose window from a list
+> l :: select previous current window
+
+#panes
+> ! :: break pane to a new window
+> ctrl + o :: rotate through the panes
+> arrow :: select the pane
+> ; :: move to previous active pane
+> m :: clear the marked pane
+> f :: search for a pane
+> x :: kill the active pane
+> z :: zoom the active pane
+> { :: swap the active pane with the pane above
+> } :: swap the active pane with the pane below
+> alt + o :: rotate through the panes in reverse
+> e :: spread panes out evenly
+> m :: toggle the marked pane
+> o :: select next pane
+> p :: select previous pane
+> q :: display pane numbers
+
+#sessions
+tmux ls :: list all sessions
+> s :: choose session from a list
+> $ :: rename current session
+> ( :: switch to previous client
+> ) :: switch to next client
+> l :: switch to last client
+> d :: detach current client
+> ctrl + z :: suspend current client
+> r :: redraw current client
+
+#layout
+> alt + 1 :: set even-horizontal layout
+> alt + 2 :: set even-vertical layout
+> alt + 3 :: set main-horizontal layout
+> alt + 4 :: set main-vertical layout
+> alt + 5 :: select tiled layout
+> alt + arrow :: resize pane by 5
+> ctrl + arrow :: resize pane
+> space :: select next layout

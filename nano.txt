@@ -1,0 +1,53 @@
+#file handling
+ctrl + s :: save current file
+ctrl + o :: save as
+ctrl + r :: insert a file into current one
+ctrl + x :: exit from nano
+
+#editing
+ctrl + k :: cut current line
+alt + 6 :: copy current line
+ctrl + u :: paste contents
+alt + T :: cut until end of buffer
+ctrl + ] :: complete current word
+alt + 3 :: comment / uncomment line
+alt + u :: undo last action
+alt + e :: redo last undone action
+
+#search and replace
+ctrl + q :: start backward search
+ctrl + w :: start forward search
+alt + q :: find next occurence backward
+alt + w :: find next occurence forward
+alt + r :: start a replacing session
+
+#deletion
+ctrl + h :: delete character before cursor
+ctrl + d :: delete character under cursor
+alt + backspace :: delete word to the left
+ctrl + del :: delete word to the right
+alt + del :: delete current line
+
+#operation
+ctrl + t :: execute some command
+alt + b :: run syntax check
+alt + f :: run formatter
+
+#navigation
+ctrl + b :: one character backward
+ctrl + f :: one character forward
+ctrl + a :: to start of line
+ctrl + e :: to end of line
+ctrl + p :: one line up
+ctrl + n :: one line down
+ctrl + y :: one page up
+ctrl + v :: one page down
+alt + \ :: to top of buffer
+alt + / :: to end of buffer
+alt + g :: to specified line
+
+#various
+tab :: indent marked region
+shift + tab :: unindent marked region
+alt + n :: turn line numbers on/off
+alt + x :: hide/unhide the help lines
